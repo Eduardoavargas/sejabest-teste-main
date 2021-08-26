@@ -1,0 +1,63 @@
+.container {
+  background: var(--white); 
+  color: var(--blue-700);
+  min-height: calc(100vh - 5rem);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin: auto;
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  h2 {
+    font-size: 2rem;
+    padding: 10px;
+  }
+}
+
+.faqList {
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+
+  li {
+    width: 100%;
+    border-bottom: 1px solid var(--gray);
+    
+    nav {
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      svg {
+        color: var(--blue-700);
+      }
+
+      span {
+        margin-left: 1rem;
+        font-weight: 500;
+      }
+    }
+
+    section {
+      padding: 1rem;
+
+      p {
+        margin-bottom: 1rem;
+        color: var(--gray);
+      }
+    }
+  }
+}

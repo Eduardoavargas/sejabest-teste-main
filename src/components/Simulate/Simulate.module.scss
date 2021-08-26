@@ -1,0 +1,38 @@
+.container {
+  background: var(--white); 
+  color: var(--gray);
+}
+
+.content {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  max-width: 1140px;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    margin-bottom: 1rem;
+    font: 700 2.5rem 'Darker Grotesque', sans-serif;
+    line-height: 2.75rem;
+    text-align: center;
+
+    strong {
+      color: var(--main);
+    }
+  }
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

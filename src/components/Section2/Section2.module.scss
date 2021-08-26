@@ -1,0 +1,44 @@
+.container {
+  background: var(--white); 
+  color: var(--gray);
+  height: calc(100vh - 5rem);
+}
+
+.content {
+  margin: auto;
+  max-width: 1140px;
+  height: 100%;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    width: 30.715rem;
+  }
+}
+
+.freeChoices {
+  padding: 0 1.875rem;
+
+  h1 {
+    color: var(--main);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font: 700 2.4rem 'Darker Grotesque', sans-serif;
+    line-height: 2.75rem;
+    margin-bottom: 2.5rem;
+  }
+
+  p, span {
+    font-size: 1.3rem;
+  }
+
+  p {
+    color: var(--blue-900);
+  }
+}
